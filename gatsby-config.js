@@ -14,6 +14,7 @@ module.exports = {
         } 
     },
     plugins: [
+        `gatsby-plugin-playground`,
         `gatsby-plugin-sass`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-styled-components`,
