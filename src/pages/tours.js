@@ -3,13 +3,14 @@ import Layout from "../components/Layout"
 import Header from "../examples/RegularHeader"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
-
+import Tours from "../components/Tours/Tours"
 
 const tours = ({data}) => {
     return (
         <>
             <Layout>
                 <StyledHero img={data.defaultBcg.childImageSharp.fluid} /> 
+                <Tours />
             </Layout>
         </>
     )
