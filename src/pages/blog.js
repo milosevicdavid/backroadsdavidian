@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import Images from "../examples/images"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
-
+import BlogList from '../components/Blog/BlogList'
 
 const blog = ({data}) => {
 
@@ -12,6 +12,7 @@ const blog = ({data}) => {
         <div>
             <Layout>
                 <StyledHero img={data.blogBcg.childImageSharp.fluid}/>
+                <BlogList />
             </Layout>
         </div>
     )
