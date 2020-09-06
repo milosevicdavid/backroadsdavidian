@@ -31,14 +31,12 @@ const BlogList = () => {
         <section className={styles.blog}>
             <Title title="my" subtitle="blog" />
             <div className={styles.center}>
-                {posts.edges.map(({node}) =>  <BlogCard key={node.id} blog={node} />
-                    
-                
-                )}
+                {posts.edges.map(({ node }) => (
+                    <BlogCard key={node.id} blog={node} />
+                ))}
             </div>
         </section>
-                
-    ) 
+    )
 }
 
 export default BlogList
