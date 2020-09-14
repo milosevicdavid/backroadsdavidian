@@ -24,7 +24,7 @@ const Navbar = () => {
                 </div>
                 <ul className={isOpen ? `${styles.navLinks} ${styles.showNav}` : `${styles.navLinks}` }>
                     {links.map((item, index) => {
-                        return(<li key={index}><AniLink fade to={item.path}>{item.text}</AniLink></li>)    
+                        return(<li key={index}><AniLink to={item.path}>{item.text}</AniLink></li>)    
                     })}   
                 </ul>
                 <div className={styles.navSocialLinks}>

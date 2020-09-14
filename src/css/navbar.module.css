@@ -47,8 +47,27 @@
 }
 
 .nav-social-links {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
 }
+
+ .nav-social-links a {
+    color: var(--primaryColor);
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    transition: var(--mainTransition);
+  }
+  .nav-social-links a:hover {
+    color: var(--mainBlack);
+    transform: translateY(-5px);
+  }
+
+
+
+
 @media screen and (min-width: 576px) {
   .navbar {
     padding: 0 2rem;

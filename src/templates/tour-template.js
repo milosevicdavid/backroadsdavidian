@@ -8,6 +8,8 @@ import { FaMoneyBillWave, FaMap } from "react-icons/fa"
 import Day from "../components/SingleTour/Day"
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
+
+
 const Template = ({ data }) => {
     const {
         name,

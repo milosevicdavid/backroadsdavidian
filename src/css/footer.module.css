@@ -19,14 +19,16 @@
   color: var(--primaryColor);
 }
 .icons a {
+  transition: transform 0.2s;
   display: inline-block;
   margin: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: var(--mainWhite);
   transition: var(--mainTransition);
 }
 .icons a:hover {
   color: var(--primaryColor);
+  transform: scale(1.5);
 }
 .copyright {
   text-transform: capitalize;
