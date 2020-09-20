@@ -16,7 +16,7 @@ label {
   display: block;
   margin-bottom: 0.5rem;
 }
-.formControl,
+.form-control,
 .submit {
   width: 100%;
   font-size: 1rem;
